@@ -19,10 +19,10 @@ const KanbanBoard = () => {
           .catch(error => console.error('Error fetching data:', error));
       }, []);
     
-  const statusColors = {
-    'Todo': '#c8e6c9', // Pastel Green
-    'In progress': '#ffe0b2', // Pastel Orange
-    'Backlog': '#b3e0ff' // Pastel Blue
+const statusColors = {
+    'Todo': '#d4c5fa', 
+    'In progress': '#e2fac5', 
+    'Backlog': '#c5faef' 
   };
 
   const userGroups = {};
